@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-US">
   <head>
-  	<title>WeBapp!</title>
+  	<title>Apper!</title>
   	<meta charset="utf-8">
   	<link rel="stylesheet" type="text/css" href="css/reset.css">
   	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -12,7 +12,7 @@
   <body>
   	<header>
 			<div class="container">
-		  	  <h1>WeBapp the Web App!</h1>
+		  	  <h1>Apper the To-Do List!</h1>
 		  	  <nav>
 		  	  	<a href="#">Sign Up!</a>  |
 		  	  	<a href="#">FAQ</a>  |
@@ -23,22 +23,16 @@
 
   	<main>
   		<div class="container">
-	  	  <div class="textmain">
-          <h2>WeBapp is a study project.</h2>
-  	  	  <p>Ea duo iuvaret impedit, decore suscipit invidunt mea ne. Possit deseruisse disputationi ne usu. Duo ea alia verear vivendum, impetus sensibus mei et.</p>
-
-  	  	  <h3>Why WeBapp is being Built:</h3>
-  	  	  <ul>
-  	  	  	<li>To update my HTML5, CSS3, and JS Skills</li>
-  	  	  	<li>To practice version control with Git/Github.</li>
-  	  	  	<li>To streamline my development workflow.</li>
-  	  	  	<li>To return to hand coding websites after 6 years.</li>
-  	  	  </ul>
+	  	  <div class="tabs">
+          <a href="#"><span class="active">Newest</span></a>
+          <a href="#"><span>Oldest</span></a>
+          <a href="#"><span>Add</span></a>
         </div>
 
-
-	  	  <div class="logomain"><img src="logo.png" alt="WeBapp logo Developed in Fireworks">
+	  	  <div class="content">
+          <
         </div>
+
   	  </div>
   	</main>
 
