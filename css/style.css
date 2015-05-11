@@ -53,14 +53,13 @@ main {
 	overflow: auto;
 }
 
-main .textmain {
-	float: left;
-	width: 570px;
+.content li:nth-child(even) {
+	background: lavender;
 }
 
-main .logomain {
-	float: right;
-	width: 285px;
+.content li:nth-child(odd) {
+	bold: text;
+	background: gainsboro;
 }
 
 .tabs a span {
@@ -71,6 +70,10 @@ main .logomain {
 	text-align: center;
 	background: #ddd;
 	padding: 5px;
+}
+
+.tabs a span.active {
+	background: #eee;
 }
 
 footer .contact {
