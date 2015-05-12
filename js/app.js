@@ -1,44 +1,29 @@
 var main = function () {
 	"use strict";
 
-	var tabNumber;
-
-	for (tabNumber = 1; tabNumber <= 3; tabNumber++) {
-		var tabSelector = ".tabs a:nth-child(" + tabNumber + ") span";
-		$(tabSelector).on("click", function (event) {
+	$(".tabs span").toArray().forEach(function (element) {
+		// create a click header for this element
+		$(element).on("click", function () {
 			$(".tabs span").removeClass("active");
-			$(event.target).addClass("active");
+			$(element).addClass("active");
+			$("main .content").empty();
 			return false;
 		});
-	}
+	});
 
+	// var tabNumber;
 
-
-	// var makeTabActive = function (tabNumber) {
-	// 	// Constuct the selector from the tabNumber
+	// for (tabNumber = 1; tabNumber <= 3; tabNumber++) {
 	// 	var tabSelector = ".tabs a:nth-child(" + tabNumber + ") span";
-	// 	$(".tabs span").removeClass("active");
-	// 	$("tabSelector").addClass("active");
-	// 	$("main .content").empty();
+	// 	$(tabSelector).on("click", function (event) {
+	// 		$(".tabs span").removeClass("active");
+	// 		$(event.target).addClass("active");
+	// 		return false;
+	// 	});
 	// }
 
-	// $(".tabs a:nth-child(1)").on("click", function () {
-	// 	makeTabActive(1);
-	// 	return false;
-	// });
-
-	// $(".tabs a:nth-child(2)").on("click", function () {
-	// 	makeTabActive(2);
-	// 	return false;
-	// });
-
-	// $(".tabs a:nth-child(3)").on("click", function () {
-	// 	makeTabActive(3);
-	// 	return false;
-	// });
-
 	console.log("Hello, Mordor.")
-}
+};
 
 
 
