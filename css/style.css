@@ -29,15 +29,14 @@ h1 {
 	color: #b33;
 	float: left;
 	width: 570px;
-
 }
 
-
-h4 {
-	font-size: small;
+/* Footer Headings */
+h5 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.25em;
+	margin-bottom: 20px;
 }
-
-
 
 
 header nav {
@@ -45,26 +44,21 @@ header nav {
 	width: 285px;
 }
 
-
+a {
+	color: #b33;
+	text-decoration: none;
+	font-weight: bold;
+}
 
 main {
-	background: white;
-	overflow: auto;
-	/*border-: 1px solid darkslategray;*/
-}
-
-.content li:nth-child(even) {
-	background: lavender;
-}
-
-.content li:nth-child(odd) {
-	bold: text;
-	background: gainsboro;
+	background: #fff;
+	border-radius: 0 5px 5px 5px;
+	padding: 40px;
 }
 
 .tabs a span {
-	display: inline-block;
 	border-radius: 5px 5px 0 0;
+	display: inline-block;
 	width: 100px;
 	margin-right: 10px;
 	text-align: center;
@@ -72,7 +66,13 @@ main {
 	padding: 5px;
 }
 
-.tabs a span.active {
+.tabs a .active {
+	background: #eee;
+}
+
+main .content {
+	padding: 30px 10px 30px 10px;
+	border-radius: 0 5px 5px 5px;
 	background: #eee;
 }
 
