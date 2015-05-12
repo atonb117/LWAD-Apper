@@ -1,7 +1,12 @@
 body {
 	background: #f9e933;
-	font-family: 'Droid', sans;
+	font-family: 'Droid', sans-serif;
 	font-size: 100%;
+}
+
+
+header, main, footer {
+	min-width: 855px;
 }
 
 header h1, h2, h3, h4 {
@@ -25,19 +30,20 @@ h3 {
 h4 {
 	font-size: small;
 }
-header, main, footer {
-	min-width: 855px;
-}
 
 header .container, main .container, footer .container {
 	max-width: 855px;
 	margin: auto;
+	/*padding-top: 10px;**/
+	/*padding-bottom: 20px;*/
 	clear:	both;
 }
 
 header {
 	background: white;
 	overflow: auto;
+	font-style: italic;
+	border-bottom: 1px solid darkslategray;
 }
 
 
@@ -51,6 +57,7 @@ header nav {
 main {
 	background: white;
 	overflow: auto;
+	/*border-: 1px solid darkslategray;*/
 }
 
 .content li:nth-child(even) {
