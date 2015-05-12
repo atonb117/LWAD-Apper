@@ -9,42 +9,35 @@ header, main, footer {
 	min-width: 855px;
 }
 
-header h1, h2, h3, h4 {
-	font-family: 'Ubuntu', sans;
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+header {
+	padding: 25px 0 25px 0;
+	background: white;
+	overflow: auto;
+	border-bottom: 1px solid darkslategray;
+}
+
+/* Main Logo */
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	font-style: italic;
+	font-size: 3em;
+	color: #b33;
 	float: left;
 	width: 570px;
+
 }
 
-h1 {
-	font-size: xx-large;
-}
-
-h2 {
-	font-size: x-large;
-}
-
-h3 {
-	font-size: large;
-}
 
 h4 {
 	font-size: small;
 }
 
-header .container, main .container, footer .container {
-	max-width: 855px;
-	margin: auto;
-	/*padding-top: 10px;**/
-	/*padding-bottom: 20px;*/
-	clear:	both;
-}
 
-header {
-	background: white;
-	overflow: auto;
-	font-style: italic;
-	border-bottom: 1px solid darkslategray;
-}
 
 
 header nav {
