@@ -80,7 +80,7 @@ main .content li {
 	border-radius: 5px;
 	padding: 3px;
 	background: #eff;
-	margin-bottom: 0 0 10px 0;
+	margin: 0 0 10px 0;
 }
 
 main .content button {
