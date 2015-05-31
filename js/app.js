@@ -1,5 +1,8 @@
-var main = function () {
+var main = function (todoObjects) {
 	"use strict";
+// now main has access to our todo list
+
+
 
 	$(".tabs a span").toArray().forEach(function (element) {
 		// create a click header for this element
@@ -39,6 +42,7 @@ var main = function () {
 	console.log("Hello, Mordor.")
 };
 
-
-
-$(document).ready(main);
+$(document).ready(function () {
+	// call main with the todo as an argument
+	main(todoObjects);
+})
